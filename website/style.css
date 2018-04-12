@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Console", Monaco, monospace
+  font-weight: normal;
+  font-size:16px;
+}
+
+html, body {
+  background-color:#010101;
+}
+
+.container {
+  margin-top:100px;
+  margin-bottom:100px;
+}
+
+.fullscreen {
+  margin:0;
+}
+
+.sketch {
+  margin:0;
+  text-align:center;
+}
+
+.sketchLeft {
+  display: inline-block;
+  padding-left: 10px;
+  width:49%;
+  text-align: left;
+}
+
+.sketchRight {
+  display: inline-block;
+  width:49%;
+  text-align: right;
+}
+
+.h-block {
+  margin:10px auto;
+  text-align:center;
+  letter-spacing: 50px;
+}
+.h-block h1 {
+  color:#bebebe;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size:3em;
+  text-align:center;
+  font-style: oblique;
+}
+
+.txt-block {
+  width: 40%;
+  margin: 40px auto;
+}
+
+.txt-block h2 {
+  color: white;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-align:center;
+}
+
+.txt-block p {
+  width:100%;
+  font-size: 1em;
+  line-height:0em;
+  text-align: center;
+  color: #f4f2f5;
+}
+
+.img-block {
+  width:90%;
+  margin:auto;
+  text-align:center;
+}
+
+.img-block figure {
+  display: inline-block;
+  padding-top: 120px;
+  width:100%;
+  color:#e5e5e5;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+.img-block figure img {
+  padding:20px;
+  width:80%;
+}
+/* style for the header menu */
+
+header {
+  position:fixed;
+  top:0;
+  left:0;
+  background-color:#090909;
+  width:100%;
+  text-align:center;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin:auto;
+}
+
+ul.menu li {
+  display: inline-block;
+  text-align: center;
+}
+
+ul.menu li a {
+  color:#bebebe;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+ul.menu li a:hover {
+  color: blue;
+}
