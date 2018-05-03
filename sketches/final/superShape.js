@@ -59,7 +59,7 @@ const s1 = function(p) {
 	p.setup = function() {
     p.createCanvas(p.displayWidth,p.displayHeight);
 
-    let gui = p.createGui('AUDIO MIXER', p.displayWidth-285, 265);
+    let gui = p.createGui('AUDIO MIXER', 10, 265);
     let volMin = 0;
     let volMax = 1;
     let volInitial = 0;

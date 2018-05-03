@@ -41,7 +41,7 @@ let low;
 		animation = [{x:0, y:0}];
 		initGif();
 
-		let gui = p.createGui('ИДП', p.displayWidth-250, 200);
+		let gui = p.createGui('ИДП', 10, 200);
 		let volMin = 0;
 		let volMax = 1;
 		let volInitial = 0;
